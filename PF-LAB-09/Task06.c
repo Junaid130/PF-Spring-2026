@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 float totalRevenue(float bills[], int n);
 int bestTable(float bills[], int n);
 int isProfitable(float total);
-
 int main() {
     float bills[5];
     int n = 5;
