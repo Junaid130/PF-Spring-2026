@@ -8,7 +8,7 @@ int main()
     printf("What is the price of your product? ");
     scanf("%f", &price);
 
-    printf("What tier of membership do you own?\n(1=Bronze, 2=Silver, 3=Gold, 4=Platinum) ");
+    printf("What tier of membership do you own?\n1=Bronze, 2=Silver, 3=Gold, 4=Platinum\n");
     scanf("%d", &tier);
 
     float finalprice;
